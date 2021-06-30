@@ -2,7 +2,7 @@ let deferredPrompt;
 const addBtn = document.querySelector('.add-button');
 //const h2Desc = document.querySelector('#h2_desc');
 addBtn.style.display = 'none';
-//h2Desc.style.display = 'none';
+h2Desc.style.display = 'none';
 
 window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent Chrome 67 and earlier from automatically showing the prompt
@@ -11,7 +11,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   deferredPrompt = e;
   // Update UI to notify the user they can add to home screen
   addBtn.style.display = 'block';
-  //h2Desc.style.display = 'block';
+  h2Desc.style.display = 'block';
 
   addBtn.addEventListener('click', (e) => {
     console.log("Se hizo click en el botón");
