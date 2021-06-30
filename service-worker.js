@@ -8,7 +8,7 @@ const precache = [
   './offline.html',
   './js/offline.js',
   './styles/estilos_offline.css',
-  '.favicon.ico',
+  './favicon.ico',
 ];
 
 
