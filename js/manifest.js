@@ -1,6 +1,6 @@
 let deferredPrompt;
 const addBtn = document.querySelector('.add-button');
-//const h2Desc = document.querySelector('#h2_desc');
+const h2Desc = document.querySelector('#h2_desc');
 addBtn.style.display = 'none';
 h2Desc.style.display = 'none';
 
