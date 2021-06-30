@@ -21,14 +21,23 @@
 
 /**********************************************************************/
 
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background-color: black;
+  color: grey;
+  margin: 0;
+  margin-bottom: 100px;
+}
+
 * {
   font-family: Calibri;
 }
 
 header {
-  margin-top: -8px;
-  margin-left: -8px;
-  padding-right: 16px;
   width: 100%;
   height: 70px;
   background-color: #484848;
@@ -76,4 +85,23 @@ button:hover {
 
 main h2,p,button,.grid {
   margin-bottom: 50px;
+}
+
+footer.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+    text-align: center;
+    margin-top: 100px;
+    border-top: 1px solid white;
+}
+
+footer.footer ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer.footer ul li {
+  text-decoration: none;
 }
