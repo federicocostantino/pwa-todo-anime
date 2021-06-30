@@ -5,7 +5,9 @@ const cacheName = 'cache-version-1';
 const precache = [
   './js/register-sw.js',
   './index.html',
-  './offline.html'
+  './offline.html',
+  './js/offline.js',
+  './styles/estilos_offline.css',
 ];
 
 
