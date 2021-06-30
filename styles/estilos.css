@@ -78,7 +78,18 @@ a.btn.btn-primary:hover {
 }
 
 .add-button {
-	position: absolute;
-	top: 1px;
-	left: 1px;
+	display: block;
+	margin: 40px auto;
+	padding: 15px 30px;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	border-radius: 15px;
+	border: none;
+}
+
+.add-button:hover {
+	background-color: black;
+	color: whitesmoke;
+	border: 1px solid white;
 }
