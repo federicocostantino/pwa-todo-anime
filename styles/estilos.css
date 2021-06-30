@@ -10,6 +10,10 @@ body {
 	margin-bottom: 100px;
 }
 
+header {
+	width: 100%;
+}
+
 span.carousel-control-prev-icon, span.carousel-control-next-icon {
 	background-color: black;
 	border-radius: 20px;
@@ -118,4 +122,25 @@ footer.footer ul {
 
 footer.footer ul li {
 	text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  #myCarousel {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	background: grey;
+	}
+
+	#myCarousel img {
+		width: 100%;
+		height: 300px;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
 }
